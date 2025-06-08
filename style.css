@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+}
+.container {
+  background: linear-gradient(
+    130deg,
+    rgb(83, 244, 180),
+    rgba(75, 6, 179, 0.58)
+  );
+  width: fit-content;
+  padding: 20px 40px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.searchbar img {
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  padding: 5px;
+}
+.searchbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container input {
+  padding: 14px 20px;
+  color: #222;
+  width: 83%;
+  border-radius: 18px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.content-show{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: none; */
+}
+.weather-icon img {
+  height: 180px;
+  background-color: transparent;
+}
+.temp {
+  font-size: 26px;
+}
+.city h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.air-info {
+  width: 100%;
+  display: flex;
+  gap: 50%;
+  
+}
+.humidity img,
+.w-speed img {
+  height: 50px;
+  background-color: transparent;
+}
+.humidity h2 {
+  font-size: 30px;
+  margin-left: 68%;
+  font-weight: 500;
+}
+.w-speed h2 {
+  font-size: 26px;
+  margin-left: 38%;
+  font-weight: 400;
+}
+.w-speed h4{
+  margin-left: 68%;
+  font-size: 14px;
+  font-weight: 500;
+}
+.humidity h4{
+  margin-left: 42%;
+  font-size: 14px;
+  font-weight: 500;
+}
